@@ -1,2 +1,4 @@
 models/Producto.class
 controllers/HomeController.class
+controllers/CarritoController.class
+models/Carrito.class

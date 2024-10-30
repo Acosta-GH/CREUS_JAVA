@@ -30,7 +30,7 @@ public class HomeController extends HttpServlet {
         String productPriceStr = request.getParameter("productPrice");
         if (productName != null && productPriceStr != null) {
             double productPrice = Double.parseDouble(productPriceStr);
-            Producto product = new Producto(productName, productPrice);
+            Producto product = new Producto(1,productName, productPrice);
             cart.add(product);
         }
 
